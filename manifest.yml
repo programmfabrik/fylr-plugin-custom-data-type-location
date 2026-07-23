@@ -1,0 +1,31 @@
+plugin:
+  name: custom-data-type-location
+  version: "1"
+  url: https://github.com/programmfabrik/fylr-plugin-custom-data-type-location
+  l10n: l10n/custom-data-type-location.csv
+  displayname:
+    de-DE: "Custom Data Type: Location"
+    en-US: "Custom Data Type: Location"
+  info:
+    de-DE: |
+      Ein Feldtyp zum Speichern geografischer Koordinaten. Die Position wird im Editor auf einer Karte ausgewählt oder als Koordinaten eingegeben. Optional kann ein übersetzter Anzeigename hinterlegt werden, der statt der Koordinaten angezeigt wird.
+    en-US: |
+      A custom data type for storing geographic coordinates. The position is picked on a map in the editor or entered as coordinates. An optional localized display name can be stored and is shown instead of the coordinates.
+  webfrontend:
+    url: custom-data-type-location.js
+    css: custom-data-type-location.css
+
+base_url_prefix: "webfrontend"
+
+custom_types:
+  location:
+    mapping:
+      displayName:
+        type: text_l10n
+    config:
+      schema:
+        - name: type
+          parameters:
+            value:
+              type: select
+              options: ["latitude_and_longitude"]

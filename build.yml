@@ -1,0 +1,23 @@
+# Build configuration for fylr-build-plugin — the explicit build description.
+# Delivered files are listed here; "check" (runs with every build) warns when
+# a manifest reference is missing from the build folder.
+# All features: https://github.com/programmfabrik/fylr-build-plugin
+
+server:
+  install:
+    - l10n
+
+webfrontend:
+  # CoffeeScript 1.x, compiled + concatenated in this order into
+  # plugin.webfrontend.url (webfrontend/custom-data-type-location.js)
+  coffee1:
+    - webfrontend/LocationUtils.coffee
+    - webfrontend/CustomDataTypeLocation.coffee
+  # compiled to the same-named .css (plugin.webfrontend.css)
+  scss:
+    - webfrontend/custom-data-type-location.scss
+
+loca:
+  - csv: l10n/custom-data-type-location.csv
+    sheet: 1zKb8Zl9g1lNxTfaHJW6taVU05k4BDtB-CpTvBwPvzvc
+    gid: 0

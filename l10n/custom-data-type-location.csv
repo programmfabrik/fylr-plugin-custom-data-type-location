@@ -1,0 +1,8 @@
+key,de-DE,R,en-US,R,da-DK,R,fi-FI,R,sv-SE,R,fr-FR,R,it-IT,R,es-ES,R,cs-CZ,R,pl-PL,R,ru-RU,R,uz-UZ,R
+custom.data.type.location.name,Location,FALSE,Location,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+custom.data.type.location.setting.schema.rendered_options.latitude_and_longitude,Latitude and Longitude,FALSE,Latitude and Longitude,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+custom.data.type.location.config.option.schema.type.value.latitude_and_longitude,Latitude and Longitude,FALSE,Latitude and Longitude,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+custom.data.type.location.config.parameter.schema.type.value.label,Type,FALSE,Type,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+custom.data.type.location.editor.latitude_longitude,Latitude and Longitude separated by comma,FALSE,Latitude and Longitude separated by comma,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+custom.data.type.location.select.no.group,Keine Gruppe,FALSE,No group,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
+custom.data.type.location.detail.output.center-button,Show in map,FALSE,Show in map,FALSE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE,,TRUE
