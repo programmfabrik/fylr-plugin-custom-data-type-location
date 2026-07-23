@@ -24,14 +24,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      # drop the node/coffee steps if the plugin has no CoffeeScript;
-      # add "npm install -g sass" if it has SCSS
       - uses: actions/setup-node@v6
         with:
           node-version: 22
 
-      - name: Install CoffeeScript
-        run: sudo npm install -g coffeescript@1.12.7
+      - name: Install CoffeeScript and sass
+        run: sudo npm install -g coffeescript@1.12.7 sass
 
       - name: Install golang
         uses: actions/setup-go@v6
